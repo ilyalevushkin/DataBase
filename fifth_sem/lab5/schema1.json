@@ -1,0 +1,19 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "training_id": {
+                "type": "integer",
+                "description": "Training ID"
+            },
+            "sportsm_id": {
+                "type": "integer",
+                "description": "Sportsmen ID"
+            }
+
+        },
+        "required": ["training_id", "sportsm_id"],
+        "additionalProperties": false
+    }
+}

@@ -1,0 +1,13 @@
+'sportsm_id' is a required property
+
+Failed validating 'required' in schema['items']:
+    {'additionalProperties': False,
+     'properties': {'sportsm_id': {'description': 'Sportsmen ID',
+                                   'type': 'integer'},
+                    'training_id': {'description': 'Training ID',
+                                    'type': 'integer'}},
+     'required': ['training_id', 'sportsm_id'],
+     'type': 'object'}
+
+On instance[0]:
+    {'sportsmen_id': 1060, 'training_id': 7514}

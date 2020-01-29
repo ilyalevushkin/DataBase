@@ -178,7 +178,7 @@ settings_for_columns = {
         "max_length_name" : 100
     },
     "training" : {
-        "min_date_time" : "2000-01-01 00:00:00"
+        "min_date_time" : ""
     },
     "sportsmen" : {
         "max_name_length" : 100,
